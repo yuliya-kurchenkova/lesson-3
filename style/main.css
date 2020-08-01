@@ -1,0 +1,150 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     margin: 0;
+ }
+ /*Main-----------------------------------*/
+ 
+ .wrapper {
+     margin: 0 auto;
+     width: 1400px;
+ }
+ 
+ .container {
+     height: 590px;
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .holder {
+     height: 322px;
+     text-align: center;
+     font-family: 'Open Sans', sans-serif;
+     background: url(../img/city.png);
+ }
+ 
+ h1 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 36px;
+     font-weight: 400;
+     color: #212121;
+     padding-top: 106px;
+     text-transform: uppercase;
+ }
+ 
+ hr {
+     width: 64px;
+     height: 2px;
+     margin: 30px auto;
+     border: 0;
+     background: orange;
+ }
+ 
+ p {
+     font-weight: 400;
+     font-size: 14px;
+     color: #86878B
+ }
+ 
+ .box {
+     display: inline-block;
+     width: 350px;
+     margin: 0 16px;
+     padding-top: 80px;
+ }
+ 
+ h2 {
+     margin: 29px 0;
+     font-size: 20px;
+     font-weight: 700;
+     color: #333333;
+ }
+ 
+ .icon {
+     width: 70px;
+     height: 70px;
+     border: 2px solid orange;
+     border-radius: 50%;
+     margin: 0 auto;
+ }
+ 
+ .icon-lamp {
+     background: no-repeat center url(../img/lamp.png);
+ }
+ 
+ .icon-keyboard {
+     background: no-repeat center url(../img/keyboard.png);
+ }
+ 
+ .icon-lightning {
+     background: no-repeat center url(../img/lightning.png);
+ }
+ 
+ .subtitle {
+     font-size: 36px;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     padding-top: 75px;
+     text-transform: uppercase;
+     color: wheat
+ }
+ 
+ .hr1 {
+     width: 64px;
+     height: 2px;
+     margin: 30px auto;
+     border: 0;
+     background: wheat;
+ }
+ 
+ .p1 {
+     color: wheat;
+     font-weight: 400;
+     font-size: 14px;
+ }
+ 
+ button {
+     margin-top: 33px;
+     padding: 15px 31px;
+     font-size: 15px;
+     font-weight: 500;
+     color: white;
+     background: transparent;
+     border: 2px solid #ffffff;
+ }
+ /*Footer--------------------------------------------------------------------*/
+ 
+ .footer {
+     padding: 38px 0 15px;
+     background: #000000;
+ }
+ 
+ .footer ul {
+     font-size: 0;
+     list-style-type: none;
+     background: no-repeat center url(../img/socail-icon-sprite.png);
+ }
+ 
+ .footer ul li {
+     display: inline-block;
+ }
+ 
+ .footer ul li a {
+     display: block;
+     width: 18px;
+     height: 18px;
+     margin: 0 2.5px;
+     cursor: pointer;
+     text-decoration: none;
+ }
+ 
+ .copy {
+     margin-top: 15px;
+     font-size: 12px;
+     color: #ffffff;
+     opacity: .5;
+     text-align: center;
+ }
